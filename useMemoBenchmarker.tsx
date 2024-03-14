@@ -26,7 +26,8 @@ import { useMemo } from 'react'
     "fasterBy": 8.899999976158142
 }
 
- * The console output shows memo to have performed slightly faster
+ * The console output shows function to have performed faster on the first run 
+ * and memo to have performed faster on the subsequent call by more than 2 times
  *
  * 2)
  * const dataList = [ some data here ]
